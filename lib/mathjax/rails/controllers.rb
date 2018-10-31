@@ -1,4 +1,6 @@
 class Mathjax::Rails::MathjaxRailsController < ActionController::Base
+  skip_before_action :verify_authenticity_token, raise: false
+
   def giveOutStaticFile
     ext = ''
     ext = ".#{params[:format]}" if params[:format]
