@@ -136,6 +136,8 @@ To work in rails 3.1 on production environment wih ngnix I just comment the foll
 
 
 ## ChangeLog
+* 2018.11.2
+small amend
 
 * 2013.11.21
 Added support for Rails 4 apps.
