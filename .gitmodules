@@ -1,3 +1,0 @@
-[submodule "vendor/mathjax"]
-	path = vendor/mathjax
-	url = https://github.com/mathjax/MathJax
